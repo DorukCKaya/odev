@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 class Ogrenci:
     def __init__(self, ogrenciAdi, ogrenciSoyadi, ogrenciSinif):
         self.ogrenciAdi = ogrenciAdi
@@ -22,9 +16,6 @@ class Soru():
 ogrenciAdi, ogrenciSoyadi, ogrenciSinif = "doruk","kaya","1a"
 o1 = Ogrenci(ogrenciAdi, ogrenciSoyadi, ogrenciSinif)    
 
-
-
-
 print('doğru sayısı?')
 dogruSayisi = input()
 print('yanlış sayısı')
@@ -35,17 +26,3 @@ s1.netSayisi(dogruSayisi,yanlisSayisi)
 s1.hesapla(net)
 
 print(o1.ogrenciSinif + " sınıfından " + o1.ogrenciAdi + " " + o1.ogrenciSoyadi + ", sınavdan " + str(s1.puan) + " puan aldı")
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
