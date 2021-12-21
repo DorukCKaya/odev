@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
 class Insan:
     def __init__ (self, ad , soyad, yas, ulke, sehir):
         self.ad = ad
@@ -23,10 +17,3 @@ k1.yetenek_ekle('python')
 k1.yetenek_ekle('yüzme')
 ad, soyad, yas, ulke, sehir, yetenekler = k1.kisi_bilgileri()
 print(k1.kisi_bilgileri())
-
-
-# In[ ]:
-
-
-
-
