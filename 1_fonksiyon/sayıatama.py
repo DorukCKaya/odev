@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[37]:
-
-
 def sayiAtama(x):   
     try:
         if (x>=100) or (x<10) or (type(x) != type(1)):
@@ -22,34 +16,3 @@ def sayiOkunusu(x):
     return okunus
 
 sayiAtama(95)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
