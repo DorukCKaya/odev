@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[37]:
-
-
 def sayiAtama(x):   
     try:
         if (x>=100) or (x<10) or (type(x) != type(1)):
@@ -20,36 +14,3 @@ def sayiOkunusu(x):
     birler_mapping =    ['bir', 'iki', 'üç', 'dört', 'beş','altı','yedi','sekiz','dokuz']
     okunus = f'{onlar_mapping[onlar-1]} {birler_mapping[birler-1]}'
     return okunus
-
-sayiAtama(95)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
